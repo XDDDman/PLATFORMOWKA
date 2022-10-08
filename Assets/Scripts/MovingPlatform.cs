@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public int Speed;
+    public float Speed;
     Vector2 targetPos;
     public Transform posA, posB;
 
