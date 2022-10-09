@@ -5,7 +5,7 @@ using UnityEngine;
 public class Zanik : MonoBehaviour
 {
 
-    public int time;
+    public float time;
 
     void OnTriggerEnter2D(Collider2D col)
     {

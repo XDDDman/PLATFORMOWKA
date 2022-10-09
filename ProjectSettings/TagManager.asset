@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Instant death
   - NextLevel
+  - Wybicie
   layers:
   - Default
   - TransparentFX
@@ -41,12 +42,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: tlo
+  - name: gradient
     uniqueID: 2255603641
+    locked: 0
+  - name: chmury
+    uniqueID: 1730332813
+    locked: 0
+  - name: wyspy
+    uniqueID: 43040365
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: platforms
     uniqueID: 4123280139
+    locked: 0
+  - name: mgla
+    uniqueID: 2687828371
     locked: 0
