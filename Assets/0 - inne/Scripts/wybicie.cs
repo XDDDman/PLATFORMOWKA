@@ -16,16 +16,11 @@ public class wybicie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-
-
-
-
-
-    void OnTriggerEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.CompareTag("Wybicie"))
+        if (col.collider.CompareTag("Wybicie"))
             rb.AddForce(new Vector2(rb.velocity.x, Wybity));
     }
 }
