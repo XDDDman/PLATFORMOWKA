@@ -13,10 +13,17 @@ public class quit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+ 
+    }
+
+    void OnMouseOver()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             Application.Quit();
-            Debug.Log("Quit");
+            Debug.Log("quit");
         }
     }
+
+
 }

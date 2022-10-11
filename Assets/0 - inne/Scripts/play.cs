@@ -14,9 +14,17 @@ public class play : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    void OnMouseOver()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("play");
         }
     }
+
+
 }
