@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0 - inne/Scenes/Poziom 4.unity
     guid: e99303e5b7356574f80c0c205a940c4e
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 5.unity
+    guid: 04ca7507332a7be46a7cd5529733dde8
   m_configObjects: {}
