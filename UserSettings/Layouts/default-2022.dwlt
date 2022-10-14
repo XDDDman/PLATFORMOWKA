@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 359
     height: 672
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -414,22 +414,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/0 - inne/Scenes
+    - Assets/0 - inne/textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/0 - inne/Scenes
+  - Assets/0 - inne/textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Franek\Desktop\PLATFORMOWKA FOLDER\PLATFORMOWKA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a610000
-    m_LastClickedID: 24842
-    m_ExpandedIDs: 00000000f4600000f660000000ca9a3bffffff7f
+    m_SelectedIDs: b2610000
+    m_LastClickedID: 25010
+    m_ExpandedIDs: 00000000986100009a61000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4600000f6600000
+    m_ExpandedIDs: 00000000986100009a610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 73}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 149
@@ -585,9 +585,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f4e10100
-      m_LastClickedID: 123380
-      m_ExpandedIDs: 7091feffe694feff2c95feff9498feffec99feff1c9bfeff189cfefff29cfeffd29dfeff869efefff89efeff0e9ffeffbaaafeff12adfeff38c0feff32c4feffd8c5feff5ec7feff9ec8feff64cafeff8acbfeff74ccfeffb6edfefff8edfeffa6eefeffe4f0feff84f3feff14f5feff3ef7feff620dffff8210ffff0214ffff0216ffff2818ffffe81affff9c29fffffc2bffffe044ffff4c50ffff7284ffffa887ffff4e8bffffb68cffffbc9afffff49cffff949effff9aa4ffffa0a8ffff20ebffff7ef8ffff2afbffff7c820000d282000058eb0000e6f10000d83201004a3301004e330100187a01006e7c0100aa7c0100f2960100f09a0100fa9a010044ae0100a6ae010078e20100
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 004effff1252ffff2853ffff1454ffffc054ffff0255ffffac55ffffec55ffff2c56ffff6c56ffffac56ffffec56ffff2c57ffff6c57ffffac57ffffec57ffff2c58ffff6c58ffffac58ffffec58ffffb05affffe45effff0860ffff6a64ffff3e67ffffa668fffff469ffff4e6bffff826cffff026effff486fffff7e70fffffa70ffff2673ffff5276ffffba77ffffee79ffff467affffbc7affff027dffff9c7effff2080ffff5e81ffffa282ffffc683ffffbc84ffff5c85ffff9e85ffff7089ffffcc89ffff308dffff848effffb08fffffa890ffff9491ffff7092ffff2093ffff8e93ffffa093ffff6e9fffffa6a0ffffbca1ffff00a4ffff80a4ffffbaa6ffff42c3ffff64c5ffff58c6ffff74c7ffffe0cbffffe4ccffff12cefffff6cfffff0cd1fffff6d1ffff96d2ffff8cd3ffffa2d4ffff0cd9fffff6d9ffffa2daffff94edffffb0eeffffa6efffff2afbffffb45f00004e9f0000b09f0000fcb200002eb30000c6b600009cb8000010be000040d9000088f30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -902,9 +902,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 27.979725, y: 5.347502, z: -0.55123836}
+    m_Target: {x: -1.6800597, y: 0.82719994, z: 1.2561511}
     speed: 2
-    m_Value: {x: 27.678936, y: 5.549314, z: -0.5432045}
+    m_Value: {x: -1.6800597, y: 0.82719994, z: 1.2561511}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -954,9 +954,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 18.656507
+    m_Target: 9.646069
     speed: 2
-    m_Value: 17.853117
+    m_Value: 9.646069
   m_Ortho:
     m_Target: 1
     speed: 2
