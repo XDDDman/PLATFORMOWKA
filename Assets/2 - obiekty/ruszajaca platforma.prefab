@@ -30,11 +30,11 @@ Transform:
   m_GameObject: {fileID: 2817510196660236576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -3.22, z: 0}
-  m_LocalScale: {x: 0.58744556, y: 0.58744556, z: 0.58744556}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2817510196660236580
 SpriteRenderer:
@@ -125,11 +125,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 2.530936, y: -0.38682273}
-  - {x: -2.485065, y: -0.37412784}
-  - {x: -2.4631581, y: 0.5246352}
-  - {x: 2.500533, y: 0.52965474}
-  - {x: 2.5231986, y: -0.35094798}
+  - {x: 0.804476, y: -0.18741389}
+  - {x: -0.81108093, y: -0.18521418}
+  - {x: -0.80896217, y: 0.17878889}
+  - {x: 0.8160534, y: 0.1780656}
+  - {x: 0.80198574, y: -0.18827243}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -162,16 +162,16 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
+  m_Offset: {x: 0, y: -0.0051552653}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.42, y: 1.93}
+    oldSize: {x: 2.57, y: 0.76}
     newSize: {x: 6.42, y: 1.93}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5, y: 1}
+  m_Size: {x: 1.6227381, y: 0.3814152}
   m_EdgeRadius: 0
