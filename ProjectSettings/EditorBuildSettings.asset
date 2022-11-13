@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Menu 0.unity
+    guid: cab5183df0813504ca68bcc9a9630bdd
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 2.unity
+    guid: fd15dac222abe9b498be598d9c9e6f99
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 3.unity
+    guid: 3e8bdb7082bd7254aa7e1b3400d05a53
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 4.unity
+    guid: e99303e5b7356574f80c0c205a940c4e
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 5.unity
+    guid: 04ca7507332a7be46a7cd5529733dde8
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 6.unity
+    guid: 46ab14fcce9b5344a94af0c691692a73
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 7.unity
+    guid: 924c70f13f9a50b4fa3e2dd98dd81975
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 8.unity
+    guid: 65e987f9d5bef4948881b076eb945ffd
+  - enabled: 1
+    path: Assets/0 - inne/Scenes/Poziom 9.unity
+    guid: 6b0d48180aa252c40975e6cac105ba8d
   m_configObjects: {}
