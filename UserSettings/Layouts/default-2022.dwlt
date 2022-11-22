@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/0 - inne/Scenes
+    - Assets/2 - obiekty
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/0 - inne/Scenes
+  - Assets/2 - obiekty
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Franek\Desktop\PLATFORMOWKA FOLDER\PLATFORMOWKA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 88650000
-    m_LastClickedID: 25992
-    m_ExpandedIDs: 00000000586500007865000000ca9a3b
+    m_SelectedIDs: 90650000
+    m_LastClickedID: 26000
+    m_ExpandedIDs: 000000006c6500008c65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000058650000
+    m_ExpandedIDs: 000000006c650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -490,7 +490,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff
+      m_ExpandedIDs: 1877fffffa77ffff2e81ffffcc8bffffe28cffffc2a3ffff02a4ffff54a5ffff5ca6ffff0aabffff94b5ffffd4b5ffffeeb6ffff42b8ffff66b9ffffc2c6ffff0cc7ffff24c9ffff40d4ffffa0d5ffff6cd6ffff8cd7ffff58daffff5ee2ffffb6e3ffff68e6ffff0cf0ffff1af1ffff40f9ffff16fbffffc68e0000ca980000c29b00004e9c0000e09c0000eca40000a4a50000a4a90000fea9000018dd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -805,9 +805,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.831932, y: 0.1285164, z: -0.16853485}
+    m_Target: {x: 59.465736, y: 22.838554, z: -0.16937739}
     speed: 2
-    m_Value: {x: 19.653048, y: -0.0042499155, z: -0.16038702}
+    m_Value: {x: 59.702232, y: 21.715206, z: -0.13107815}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -857,9 +857,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 18.920658
+    m_Target: 88.938736
     speed: 2
-    m_Value: 18.105892
+    m_Value: 85.10884
   m_Ortho:
     m_Target: 1
     speed: 2
