@@ -1283,10 +1283,10 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973339559}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1315,6 +1315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  ShowRaycast: 0
   Ground:
     serializedVersion: 2
     m_Bits: 8
@@ -1690,6 +1691,10 @@ PrefabInstance:
     - target: {fileID: 8900458939387668768, guid: 20962aeb6d63dad47b70262a36332df2, type: 3}
       propertyPath: m_Name
       value: Square
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900458939387668768, guid: 20962aeb6d63dad47b70262a36332df2, type: 3}
+      propertyPath: m_TagString
+      value: Instant death
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20962aeb6d63dad47b70262a36332df2, type: 3}
