@@ -7,5 +7,6 @@ public class Player_Death : MonoBehaviour
     {
     if(col.CompareTag("Instant death"))
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
     }
 }

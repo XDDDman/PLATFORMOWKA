@@ -12,10 +12,19 @@ public class PlayerMovement : MonoBehaviour
     public bool isJumping;
 
     private Rigidbody2D rb;
+
+
+    public bool pause = false;
+
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();  
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -24,9 +33,26 @@ public class PlayerMovement : MonoBehaviour
         Move = Input.GetAxis("Horizontal");
 
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
-        if(Input.GetButtonDown("Jump") && isJumping == false)
+        if (Input.GetButtonDown("Jump") && isJumping == false && pause == false)
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
+        }
+
+
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pause == false)
+            {
+                Time.timeScale = 0;
+                pause = true;
+                Debug.Log("Pauza");
+            }
+            else
+            {
+                Time.timeScale = 1;
+                pause = false;
+            }
         }
 
 
@@ -45,5 +71,10 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
         }
     }
+
+
+
+
+
 
 }

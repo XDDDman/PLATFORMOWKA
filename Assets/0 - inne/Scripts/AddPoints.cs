@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlobDeath : MonoBehaviour
+
+public class AddPoints : MonoBehaviour
 {
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -16,12 +19,13 @@ public class BlobDeath : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.collider.CompareTag("Player"))
+        if (col.CompareTag("Player"))
         {
+            
             Destroy(gameObject);
         }
-
     }
 }
