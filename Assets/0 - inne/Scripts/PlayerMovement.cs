@@ -17,7 +17,10 @@ public class PlayerMovement : MonoBehaviour
     public bool pause = false;
 
 
+    private bool doubleJumping;
 
+
+    public bool doubleJumpingEnable;
 
 
 
@@ -32,10 +35,23 @@ public class PlayerMovement : MonoBehaviour
     {
         Move = Input.GetAxis("Horizontal");
 
+
+
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
-        if (Input.GetButtonDown("Jump") && isJumping == false && pause == false)
+        if (Input.GetButtonDown("Jump") && pause == false)
         {
-            rb.AddForce(new Vector2(rb.velocity.x, jump));
+            if (isJumping == false)
+            {
+                rb.AddForce(new Vector2(rb.velocity.x, jump));
+            }
+            else
+            {
+                if (pause == false && isJumping == true && doubleJumping == false && doubleJumpingEnable == true)
+                {
+                    rb.AddForce(new Vector2(rb.velocity.x, jump));
+                    doubleJumping = true;
+                }
+            }
         }
 
 
@@ -69,12 +85,12 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             isJumping = true;
+            doubleJumping = false;
+        }
+        if (other.gameObject.CompareTag("Wybicie"))
+        {
+            doubleJumping = true;
         }
     }
-
-
-
-
-
 
 }

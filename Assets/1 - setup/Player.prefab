@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1288082126179096415}
   - component: {fileID: 1413342382}
   - component: {fileID: 1956215225}
+  - component: {fileID: 1956215234}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -37,7 +38,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6011610488918987970
 SpriteRenderer:
@@ -154,6 +155,7 @@ MonoBehaviour:
   jump: 300
   isJumping: 1
   pause: 0
+  doubleJumpingEnable: 1
 --- !u!114 &6011610488918987982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,3 +208,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
   score: 0
+--- !u!114 &1956215234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011610488918987968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b970874ac7c59144a2cb9e351827853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  odbicieA: 250
