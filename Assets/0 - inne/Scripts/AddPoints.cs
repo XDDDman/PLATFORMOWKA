@@ -6,6 +6,7 @@ using UnityEngine;
 public class AddPoints : MonoBehaviour
 {
 
+    public pieniadze pieniadze;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class AddPoints : MonoBehaviour
         {
             
             Destroy(gameObject);
+            pieniadze.MoreMoney();
         }
     }
 }

@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     public bool doubleJumpingEnable;
+    public GameObject pauseMenuUI;
 
 
 
@@ -60,12 +61,14 @@ public class PlayerMovement : MonoBehaviour
         {
             if (pause == false)
             {
+                pauseMenuUI.SetActive(true);
                 Time.timeScale = 0;
                 pause = true;
                 Debug.Log("Pauza");
             }
             else
             {
+                pauseMenuUI.SetActive(false);
                 Time.timeScale = 1;
                 pause = false;
             }
