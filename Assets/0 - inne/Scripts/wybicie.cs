@@ -6,6 +6,13 @@ public class wybicie : MonoBehaviour
 {
     public float Wybity;
 
+    public float WybityPlus;
+
+    public bool mozeWybic;
+
+
+    public PlayerMovement PlayerMovement;
+
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -22,5 +29,17 @@ public class wybicie : MonoBehaviour
     {
         if (col.collider.CompareTag("Wybicie"))
             rb.AddForce(new Vector2(rb.velocity.x, Wybity));
+
+        if (col.collider.CompareTag("Wybicie+") && mozeWybic == true)
+            rb.AddForce(new Vector2(rb.velocity.x, WybityPlus));
+    }
+
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.collider.CompareTag("Wybicie+"))
+        {
+            mozeWybic = true;
+            PlayerMovement.wyszedl();
+        }
     }
 }

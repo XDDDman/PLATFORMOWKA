@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1815181360809039195}
   - component: {fileID: 9026753293442420107}
   - component: {fileID: 8437722023005751436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wyspa srednia 1
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8659734677761453493
 SpriteRenderer:
@@ -105,7 +105,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.42, y: 10.17}
+    oldSize: {x: 6.46, y: 10.31}
     newSize: {x: 6.37, y: 10.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.42, y: 10.17}
+    oldSize: {x: 6.46, y: 10.31}
     newSize: {x: 6.37, y: 10.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -157,7 +157,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.42, y: 10.17}
+    oldSize: {x: 6.46, y: 10.31}
     newSize: {x: 6.37, y: 10.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -183,7 +183,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.42, y: 10.17}
+    oldSize: {x: 6.46, y: 10.31}
     newSize: {x: 6.37, y: 10.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -19,16 +19,29 @@ public class PlayerMovement : MonoBehaviour
 
     private bool doubleJumping;
 
+    public bool doubleJumpingEnable = false;
+    
 
-    public bool doubleJumpingEnable;
     public GameObject pauseMenuUI;
 
+    public GameObject doubleJumpParticle;
+
+
+    public bool isActive;
+
+    public int czas = 1;
+
+
+    public bool isStorm;
+    public float tempo = 1.00f;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        pauseMenuUI.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
+        doubleJumpParticle.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,9 +64,20 @@ public class PlayerMovement : MonoBehaviour
                 {
                     rb.AddForce(new Vector2(rb.velocity.x, jump));
                     doubleJumping = true;
+                    doubleJumpingEnable = false;
+                    doubleJumpParticle.SetActive(true);
+                    Invoke("stop", 1);
                 }
             }
+
         }
+
+        void stop()
+        {
+            doubleJumpParticle.SetActive(false);
+        }
+
+        
 
 
 
@@ -75,25 +99,58 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
+        if (isStorm == true)
+        {
+            transform.position += new Vector3(tempo/-200, 0, 0);
+        }
+
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground") || other.gameObject.CompareTag("Ground+"))
+        {
+            isJumping = false;
+        }
+
+        if (other.gameObject.CompareTag("Wybicie+") && isActive == false)
         {
             isJumping = false;
         }
     }
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground") || other.gameObject.CompareTag("Ground+"))
         {
             isJumping = true;
             doubleJumping = false;
         }
-        if (other.gameObject.CompareTag("Wybicie"))
+        if (other.gameObject.CompareTag("Wybicie") || other.gameObject.CompareTag("Wybicie+"))
         {
             doubleJumping = true;
         }
+
+        if (other.gameObject.CompareTag("Wybicie+") && isActive == false)
+        {
+            isJumping = true;
+            doubleJumping = false;
+        }
     }
 
+
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("double jump activator"))
+        {
+            doubleJumpingEnable = true;
+        }
+    }
+
+
+    public void wyszedl()
+    {
+        isActive = true;
+    }
+
+    
 }

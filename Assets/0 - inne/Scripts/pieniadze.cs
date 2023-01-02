@@ -10,7 +10,9 @@ public class pieniadze : MonoBehaviour
     public Text scoreText;
     public int score = 0;
 
-   
+
+    public destylacja destylacja;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,5 +30,26 @@ public class pieniadze : MonoBehaviour
     {
         score += 1;
         scoreText.text = score.ToString() + " POINTS";
+    }
+
+    public void test()
+    {
+        if (score > 2)
+        {
+            destylacja.moneyGIT();
+            Debug.Log("wystarczy pieniêdzy");
+        }
+        else
+        {
+            Debug.Log("nie wystarczy pieniêdzy");
+        }
+    }
+
+    public void zakupyMoney()
+    {
+        score -= 3;
+        scoreText.text = score.ToString() + " POINTS";
+        Debug.Log("pobrano pieni¹dze");
+        destylacja.StopMoney();
     }
 }

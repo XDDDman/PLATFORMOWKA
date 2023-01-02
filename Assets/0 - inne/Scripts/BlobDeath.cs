@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class BlobDeath : MonoBehaviour
 {
+
+
+    public GameObject objectToSpawn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,9 @@ public class BlobDeath : MonoBehaviour
     {
         if (col.collider.CompareTag("Player"))
         {
+
+            Instantiate(objectToSpawn, transform.position, transform.rotation);
+
             Destroy(gameObject);
         }
 
