@@ -72,10 +72,6 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        void stop()
-        {
-            doubleJumpParticle.SetActive(false);
-        }
 
         
 
@@ -105,6 +101,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+    void stop()
+    {
+        doubleJumpParticle.SetActive(false);
+    }
+    
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground") || other.gameObject.CompareTag("Ground+"))
