@@ -35,6 +35,8 @@ public class PlayerMovement : MonoBehaviour
     public bool isStorm;
     public float tempo = 1.00f;
 
+    public float tajm = 1;
+
 
     // Start is called before the first frame update
     void Start()
@@ -66,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
                     doubleJumping = true;
                     doubleJumpingEnable = false;
                     doubleJumpParticle.SetActive(true);
-                    Invoke("stop", 1);
+                    Invoke("stop", tajm);
                 }
             }
 
