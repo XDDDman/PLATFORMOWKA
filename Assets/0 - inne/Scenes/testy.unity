@@ -5520,7 +5520,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -428.1, y: 217.25574}
+=======
+  m_AnchoredPosition: {x: -247.7, y: 151.4}
+>>>>>>> bb497c5b72c5e854b07cbb804d627b8c478be482
   m_SizeDelta: {x: 205.9717, y: 45.4951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177939744
@@ -10881,7 +10885,7 @@ MonoBehaviour:
   radius: 10
 --- !u!95 &432305367
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10898,6 +10902,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &452220341
 GameObject:
@@ -10975,6 +10980,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452220341}
   m_CullTransparentMesh: 1
+=======
+  m_KeepAnimatorStateOnDisable: 0
+>>>>>>> bb497c5b72c5e854b07cbb804d627b8c478be482
 --- !u!1001 &472690865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12402,6 +12410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -12446,7 +12455,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1130925813
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12463,7 +12472,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1148762889
 GameObject:
   m_ObjectHideFlags: 0
@@ -12499,7 +12508,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -428.1, y: 187.5}
+=======
+  m_AnchoredPosition: {x: -262.3, y: 126.1}
+>>>>>>> bb497c5b72c5e854b07cbb804d627b8c478be482
   m_SizeDelta: {x: 205.9717, y: 45.4951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1148762891
@@ -14210,7 +14223,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1851273641
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14227,7 +14240,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1906603902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14509,7 +14522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 133.51999, y: -38.993988}
+  m_AnchoredPosition: {x: 174.1, y: -38.4}
   m_SizeDelta: {x: 234.60272, y: 43.988007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1946805453
@@ -15174,7 +15187,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &2075719732
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15191,7 +15204,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &2850278013284251202
 PrefabInstance:
   m_ObjectHideFlags: 0
