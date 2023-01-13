@@ -11,34 +11,97 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/0 - inne/Scenes/sterowiec zoom.unity
     guid: 245c13028c168064b9ca153a3b9b0371
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/0 - inne/Scenes/Poziom 2.unity
-    guid: fd15dac222abe9b498be598d9c9e6f99
-  - enabled: 1
-    path: Assets/0 - inne/Scenes/Poziom 3.unity
-    guid: 3e8bdb7082bd7254aa7e1b3400d05a53
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 4.unity
     guid: e99303e5b7356574f80c0c205a940c4e
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 5.unity
     guid: 04ca7507332a7be46a7cd5529733dde8
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 6.unity
     guid: 46ab14fcce9b5344a94af0c691692a73
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 7.unity
     guid: 924c70f13f9a50b4fa3e2dd98dd81975
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 8.unity
     guid: 65e987f9d5bef4948881b076eb945ffd
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 9.unity
     guid: 6b0d48180aa252c40975e6cac105ba8d
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 - inne/Scenes/Poziom 11.unity
     guid: b46e4fea18b645e4b9ca3004648c22cc
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 0 !.unity
+    guid: a70720eb57a2463468a113da0f58598f
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 1 !.unity
+    guid: cbed22ce3bd880042b1467c30de51d46
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 2 !.unity
+    guid: 0a96334b17b4457458c84661493284ce
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 3 !.unity
+    guid: 72063385a1d3dea439f449deb40a45aa
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 4 !.unity
+    guid: ae9afbf76f5622348adcffa70b535fea
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 5 !.unity
+    guid: 73612af66732d6d42a6934abadafb32a
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 6 !.unity
+    guid: 46b6c52ad8d511a4ca13bf621d494c84
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 7 !.unity
+    guid: 5b0762ed8780ff442845bf67d05dfb12
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 8 -.unity
+    guid: f0ac212358ad19f479015767d91fb4a5
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 9 !.unity
+    guid: c471877790bcad542961c02189aff956
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 10 !.unity
+    guid: d716147d75f88ac42b4f4772a887186d
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 11 !.unity
+    guid: d87c2d6891081604885d5d1675226316
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 12 !.unity
+    guid: 350371181c6a1804680f59ad10528799
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 13 !.unity
+    guid: 83e7386504056c649900b94459409832
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 14 !.unity
+    guid: b7b6dc6ba2148ba44885e3acb30d7c2f
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 15 !.unity
+    guid: 6289a42e41e99084cbbd64d49fafe4d2
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 16 !.unity
+    guid: 5944d21576dd4c4458b62047096107be
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 17 !.unity
+    guid: ea72d7e8b2bc36145b32122218e429e3
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 18 !.unity
+    guid: 5e926c70ff5ec604abfb9b94c090d4fc
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 19 !.unity
+    guid: 3cd33cf6fe517214d8bb0bb175a81ace
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 20 !.unity
+    guid: bd295fa6b2d0d924a8c3f2fc0f888fc1
   m_configObjects: {}

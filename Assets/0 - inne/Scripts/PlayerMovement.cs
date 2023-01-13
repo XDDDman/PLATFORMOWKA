@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
@@ -44,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
         pauseMenuUI.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
         doubleJumpParticle.SetActive(false);
+
+        doubleJumpingEnable = false;
     }
 
     // Update is called once per frame
@@ -75,11 +79,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        
+        if (Input.GetKeyDown("r"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
 
 
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (pause == false)
             {
