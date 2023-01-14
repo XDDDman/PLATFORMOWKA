@@ -282,6 +282,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1307380652, guid: 671bb57a7ce0a954cbca141b9af4d93d, type: 3}
+      propertyPath: Player_Death
+      value: 
+      objectReference: {fileID: 785616760}
     - target: {fileID: 1937499918329721212, guid: 671bb57a7ce0a954cbca141b9af4d93d, type: 3}
       propertyPath: m_Name
       value: flaga przejscia
@@ -690,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b20a326471126848a28f33eb3491415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 703077823}
+  scoreText: {fileID: 0}
   score: 0
   destylacja: {fileID: 0}
 --- !u!114 &295007001
@@ -766,8 +770,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 703077825}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1190,86 +1193,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &703077822
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 703077825}
-  - component: {fileID: 703077824}
-  - component: {fileID: 703077823}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &703077823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703077822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 18221453f300f854c855990bf8c6ba26, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 10 points
---- !u!222 &703077824
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703077822}
-  m_CullTransparentMesh: 1
---- !u!224 &703077825
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703077822}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 295007004}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -193, y: -49}
-  m_SizeDelta: {x: 234.60272, y: 43.988007}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &731851586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,10 +1245,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 653970111}
     m_Modifications:
-    - target: {fileID: 1956215225, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
-      propertyPath: scoreText
-      value: 
-      objectReference: {fileID: 703077823}
     - target: {fileID: 6011610488918987968, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1375,10 +1294,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6011610488918987982, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
-      propertyPath: Gracz
-      value: 
-      objectReference: {fileID: 1016783999}
-    - target: {fileID: 6011610488918987982, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1679729743}
@@ -1386,6 +1301,14 @@ PrefabInstance:
       propertyPath: TeloportGoal
       value: 
       objectReference: {fileID: 914660242}
+    - target: {fileID: 6011610488918987982, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
+      propertyPath: LevelDeathsText
+      value: 
+      objectReference: {fileID: 1679729743}
+    - target: {fileID: 6011610488918987982, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
+      propertyPath: GeneralDeathsText
+      value: 
+      objectReference: {fileID: 574685195}
     - target: {fileID: 6011610488918987983, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
       propertyPath: pauseMenuUI
       value: 
@@ -1398,6 +1321,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6011610488918987981, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
   m_PrefabInstance: {fileID: 785616758}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &785616760 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6011610488918987982, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
+  m_PrefabInstance: {fileID: 785616758}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016783999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5129132fd9847b3489143fa4e5a71b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &914660241
 PrefabInstance:
   m_ObjectHideFlags: 0

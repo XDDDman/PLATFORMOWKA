@@ -5117,6 +5117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5129132fd9847b3489143fa4e5a71b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TeloportGoal: {fileID: 0}
+  Gracz: {fileID: 6011610488918987968}
+  scoreText: {fileID: 0}
+  Zanik: {fileID: 0}
 --- !u!114 &1288082126179096415
 MonoBehaviour:
   m_ObjectHideFlags: 0

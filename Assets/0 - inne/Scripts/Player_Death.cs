@@ -10,27 +10,44 @@ using UnityEngine.UI;
 public class Player_Death : MonoBehaviour
 {
 
-    public GameObject TeloportGoal;
-
-    public GameObject Gracz;
 
 
-    public Text scoreText;
-    public int levelDeaths = 0;
+    public Text LevelDeathsText;
+    public static int levelDeaths = 0;
+
+    public Text GeneralDeathsText;
+    public static int GeneralDeaths = 0;
+
+
+
 
     void Start()
     {
-        scoreText.text = levelDeaths.ToString();
+        LevelDeathsText.text = levelDeaths.ToString();
+        GeneralDeathsText.text = GeneralDeaths.ToString();
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Instant death"))
         {
-            Gracz.transform.position = TeloportGoal.transform.position;
-
+            
             levelDeaths += 1;
-            scoreText.text = levelDeaths.ToString();
+            LevelDeathsText.text = levelDeaths.ToString();
+
+            GeneralDeaths += 1;
+            GeneralDeathsText.text = GeneralDeaths.ToString();
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+
+
+
+
+
+    public void Reset()
+    {
+        levelDeaths = 0;
     }
 }
