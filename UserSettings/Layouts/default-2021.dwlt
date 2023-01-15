@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 63
+  controlID: 66
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 403.33325
     height: 819.3333
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 248
     height: 500
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 64
+  controlID: 67
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 65
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 1055.3334
     height: 500
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/0 - inne/Scenes 2
+    - Assets/0 - inne/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/0 - inne/Scenes 2
+  - Assets/0 - inne/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\maxim\OneDrive\Pulpit\Co to, ja nie wiem\PLATFORMOWKA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 29.666687}
-    m_SelectedIDs: ac670000
-    m_LastClickedID: 26540
-    m_ExpandedIDs: 00000000746700007667000000ca9a3b
+    m_SelectedIDs: 9e670000
+    m_LastClickedID: 26526
+    m_ExpandedIDs: 000000007a6700007c67000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007467000076670000
+    m_ExpandedIDs: 000000007a6700007c670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,25 +488,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 586c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: e897feffac99feffa09afeff7ca0feffb8a4feff66a9feff56adfeff06b7feff88bdfeff3abefeff7ebffeff60c1feff02c2feff64c6feffcac8feffd4cbfefff4ccfeff18cefeff48cffeffeed0feff20d3feff14d4feffd6d7feff50dbfeff8adcfeff12defeff7ce0feff28e2feff0ee3feff3ce7feff22e8feff2ee9feff12eafeffeeeafeffe2ebfeff96ecfeffa4edfeff80f0feffccf1feff38f3feff40fffeff8000ffff8c01ffffa602ffff520dffff6a0effff840fffff9810ffffc211ffffdc12fffffc13ffff3e15ffff4e16ffff6817ffff8218ffffac19ffffe638ffffb03affff2c52ffffc853ffff8256ffff4c58ffff9459fffff669ffff766bffffb26dffff826fffff9870ffffd271ffff1c73ffff0274ffff0a75ffffe675ffffca76ffffd277ffffb878ffffea79ffff907cffffa893ffffd094ffff1aa6ffff30a6ffff72a7ffff84a7ffffdca8ffff58aaffff02acffff4aadffffacaeffff5eafffff7ab0ffffbcb1ffff6eb2ffffbcb3ffffa2b4ffffecb5ffff26b7ffff7cb8ffffd4baffff72bcffff58bdfffffcbdfffff0beffffccbfffffb0c0ffffb8c1fffff2c2ffff40c4ffff7ac5ffffc4c6ffffaac7ffffb2c8ffff98c9ffffe2caffff1cccffffc0ccffff46f2ffff90f3ffff1cf5ffffb6f5ffffaef6ffffe6f7fffff0f8ffffbafaffff00b700000ac000004ec1000010c2000010c40000d6c4000048e40000a0030100d8050100463701007e3901003ca9010038ba010096c30100c0cc0100a2e20100c0e8010094ec010004ee01009ef20100a6f80100
+      m_ExpandedIDs: 00f2ffffaef6ffff64f7ffff14f8ffffbcfaffffe46b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: AudioManager
+        m_OriginalName: AudioManager
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -3766
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 3}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -814,9 +814,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.286827
+    m_Target: 10
     speed: 2
-    m_Value: 16.286827
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
