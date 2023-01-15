@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/0 - inne/Scenes 2/Menu 0.unity
     guid: 0b62dab5629f4ee46a9e1534a9dafe9a
   - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Poziom 0 !.unity
+    guid: 8fa43d957be6c5f47aa72bf6cf87ebfc
+  - enabled: 1
     path: Assets/0 - inne/Scenes 2/Poziom 1 !.unity
     guid: cbed22ce3bd880042b1467c30de51d46
   - enabled: 1
