@@ -63,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             if (isJumping == false)
             {
                 rb.AddForce(new Vector2(rb.velocity.x, jump));
+                FindObjectOfType<AudioManager>().Play("jump");
             }
             else
             {
