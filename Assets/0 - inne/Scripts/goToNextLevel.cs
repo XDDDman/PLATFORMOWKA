@@ -15,13 +15,17 @@ public class goToNextLevel : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        
         if (col.CompareTag("Player"))
+         
         {
+            FindObjectOfType<AudioManager>().Play("NextLevel"); 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             Player_Death.Reset();
 
             levelTiming.Reset();
+             
         }
     }
 }
