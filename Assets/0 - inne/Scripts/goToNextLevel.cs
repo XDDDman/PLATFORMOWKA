@@ -19,7 +19,7 @@ public class goToNextLevel : MonoBehaviour
         if (col.CompareTag("Player"))
          
         {
-            FindObjectOfType<AudioManager>().Play("NextLevel"); 
+            
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
             Player_Death.Reset();
