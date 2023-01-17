@@ -25,7 +25,7 @@ public class BlobDeath : MonoBehaviour
         if (col.collider.CompareTag("Player"))
         {
 
-            Instantiate(objectToSpawn, transform.position, transform.rotation);
+            //Instantiate(objectToSpawn, transform.position, transform.rotation);
 
             Destroy(gameObject);
         }

@@ -601,6 +601,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
+    gravitySource: 0
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -3985,6 +3986,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minVertexDistance: 0.2
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -4887,7 +4889,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa8abf7891b005b4bbc87d0fe267ece3, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4895,7 +4897,7 @@ SpriteRenderer:
   m_Size: {x: 1.27, y: 1.17}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1749379621
@@ -4905,7 +4907,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749379618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce61af6854ea8f34e9ce620e002c1a7a, type: 3}
   m_Name: 
@@ -4959,6 +4961,7 @@ GameObject:
   - component: {fileID: 1016784009}
   - component: {fileID: 1016784000}
   - component: {fileID: 6339980276448252980}
+  - component: {fileID: 1016784011}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5098,7 +5101,7 @@ MonoBehaviour:
   jump: 300
   isJumping: 1
   pause: 0
-  doubleJumpingEnable: 0
+  doubleJumpingEnable: 1
   pauseMenuUI: {fileID: 0}
   doubleJumpParticle: {fileID: 299702695}
   isActive: 0
@@ -5163,7 +5166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b970874ac7c59144a2cb9e351827853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  odbicieA: 250
+  odbicieA: 300
 --- !u!114 &1956215235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5219,6 +5222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4788d7d46cfe6ce41be2251b04a77a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCounting: 1
   GeneralTimeText: {fileID: 0}
 --- !u!82 &6339980276448252980
 AudioSource:
@@ -5227,10 +5231,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6011610488918987968}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0560e5e0728d8b3419dbb17cd233b671, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5276,7 +5280,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.931
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5316,3 +5320,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1016784011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011610488918987968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd641a02f1949c4d95a01e36defcfe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player_Death: {fileID: 6011610488918987982}
+  levelTiming: {fileID: 1016784009}
+  GeneralTiming: {fileID: 1016784000}
+  goToNextLevel: {fileID: 1307380652, guid: 3f5d2b01c2924ff4f94b1e629ab84aa6, type: 3}

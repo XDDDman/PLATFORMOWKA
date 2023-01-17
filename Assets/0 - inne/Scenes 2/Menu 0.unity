@@ -561,7 +561,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -912278998377504981, guid: b6c1c8fda9568194b98ae91e8b30d477, type: 3}
+      - m_Target: {fileID: 1016784011, guid: 7e4f262d24b5f0343bd4c7301ad38183, type: 3}
         m_TargetAssemblyTypeName: play, Assembly-CSharp
         m_MethodName: actionPlay
         m_Mode: 1
@@ -688,6 +688,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -911,7 +912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit

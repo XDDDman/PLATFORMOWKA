@@ -4,7 +4,7 @@ public class raycast2 : MonoBehaviour
 {
     // Float a rigidbody object a set distance above a surface.
     public float speed = 5;
-    int moveDirection = 1;
+    int moveDirection = -1;
 
     Rigidbody2D rb2D;
     bool left, right;
@@ -40,24 +40,24 @@ public class raycast2 : MonoBehaviour
 
         if(!right)
         {
-            if(moveDirection == 1)
-            {
-                moveDirection = -1;
-            } else
+            if(moveDirection == -1)
             {
                 moveDirection = 1;
+            } else
+            {
+                moveDirection = -1;
             }
         }
 
         if(!left)
         {
-            if (moveDirection == 1)
+            if (moveDirection == -1)
             {
-                moveDirection = -1;
+                moveDirection = 1;
             }
             else
             {
-                moveDirection = 1;
+                moveDirection = -1;
             }
         }
 

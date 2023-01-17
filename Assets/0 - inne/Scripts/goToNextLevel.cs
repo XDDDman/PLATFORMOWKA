@@ -1,5 +1,10 @@
+using System.Collections;
+using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+using UnityEngine.UI;
 
 public class goToNextLevel : MonoBehaviour
 {
@@ -7,9 +12,12 @@ public class goToNextLevel : MonoBehaviour
 
     public levelTiming levelTiming;
 
+    public Text levelNumText;
+    public static int levelNum;
+
     void Start()
     {
-
+        levelNumText.text = levelNum.ToString() + "/20";
     }
 
 
@@ -17,7 +25,6 @@ public class goToNextLevel : MonoBehaviour
     {
         
         if (col.CompareTag("Player"))
-         
         {
             
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -25,7 +32,15 @@ public class goToNextLevel : MonoBehaviour
             Player_Death.Reset();
 
             levelTiming.Reset();
-             
+
+            levelNum += 1;
+            levelNumText.text = levelNum.ToString() + "/20";
         }
+    }
+
+    public void Reset()
+    {
+        levelNum = 0;
+        levelNumText.text = levelNum.ToString() + "/20";
     }
 }

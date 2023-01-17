@@ -40,14 +40,20 @@ public class Player_Death : MonoBehaviour
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+        if (col.CompareTag("stopTimerowi"))
+        {
+            GeneralDeathsText.text = GeneralDeaths.ToString() + "  razy";
+        }
     }
-
-
-
-
 
     public void Reset()
     {
         levelDeaths = 0;
+    }
+
+    public void GeneralReset()
+    {
+        GeneralDeaths = 0;
     }
 }

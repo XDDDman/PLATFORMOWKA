@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0 - inne/Scenes 2/Poziom 20 !.unity
     guid: bd295fa6b2d0d924a8c3f2fc0f888fc1
+  - enabled: 1
+    path: Assets/0 - inne/Scenes 2/Win screen.unity
+    guid: 6afde0f2288069342a12aaaae904f605
   m_configObjects: {}

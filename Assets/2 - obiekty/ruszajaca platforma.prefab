@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2817510196660236580
 SpriteRenderer:
@@ -125,11 +125,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.804476, y: -0.18741389}
-  - {x: -0.81108093, y: -0.18521418}
-  - {x: -0.80896217, y: 0.17878889}
-  - {x: 0.8160534, y: 0.1780656}
-  - {x: 0.80198574, y: -0.18827243}
+  - {x: 1.0968388, y: -0.18409003}
+  - {x: -1.1006378, y: -0.18771279}
+  - {x: -1.0957419, y: 0.17368737}
+  - {x: 1.0998503, y: 0.1698729}
+  - {x: 1.1011583, y: -0.17996657}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -173,5 +173,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6227381, y: 0.3814152}
+  m_Size: {x: 2.2205267, y: 0.3814152}
   m_EdgeRadius: 0

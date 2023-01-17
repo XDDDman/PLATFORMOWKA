@@ -18,7 +18,7 @@ public class niszczenieOziemie : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Ground"))
+        if (col.CompareTag("Ground") || col.CompareTag("Wybicie"))
         {
             Destroy(gameObject);
         }

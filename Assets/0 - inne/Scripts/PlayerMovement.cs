@@ -48,6 +48,8 @@ public class PlayerMovement : MonoBehaviour
         doubleJumpParticle.SetActive(false);
 
         doubleJumpingEnable = false;
+
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -63,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
             if (isJumping == false)
             {
                 rb.AddForce(new Vector2(rb.velocity.x, jump));
-                FindObjectOfType<AudioManager>().Play("jump");
+                //FindObjectOfType<AudioManager>().Play("jump");
             }
             else
             {
@@ -87,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (pause == false)
             {
@@ -95,12 +97,16 @@ public class PlayerMovement : MonoBehaviour
                 Time.timeScale = 0;
                 pause = true;
                 Debug.Log("Pauza");
+
+                Cursor.visible = true;
             }
             else
             {
                 pauseMenuUI.SetActive(false);
                 Time.timeScale = 1;
                 pause = false;
+
+                Cursor.visible = false;
             }
         }
 
