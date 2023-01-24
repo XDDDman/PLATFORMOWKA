@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4968589349870940918}
   - component: {fileID: 1003981858786740768}
   - component: {fileID: 682311129}
-  - component: {fileID: 5216452622678413546}
   - component: {fileID: 7673367158261274781}
+  - component: {fileID: 6201651873560136650}
   m_Layer: 0
   m_Name: ruszajace kolo tnace
   m_TagString: Instant death
@@ -103,7 +103,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.915
---- !u!95 &5216452622678413546
+--- !u!114 &7673367158261274781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818776466228081289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fcc1d0c4a2bf24b9cdba45d75a82e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  posA: {fileID: 0}
+  posB: {fileID: 0}
+--- !u!95 &6201651873560136650
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -123,18 +138,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7673367158261274781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818776466228081289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80fcc1d0c4a2bf24b9cdba45d75a82e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 5
-  posA: {fileID: 0}
-  posB: {fileID: 0}
